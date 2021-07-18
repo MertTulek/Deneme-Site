@@ -1,138 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
-body{
-    background-color: hsl(222, 26%, 15%);
+body {
+  /* background-color: hsl(222, 26%, 15%); */
+  background-color: #181f2b;
 }
-.logo{
-    height: 35px;
+.logo {
+  height: 35px;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 100px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
 }
-.menu{
-    display: flex;
+.menu {
+  display: flex;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-.menu li{
-    margin-right: 40px;
+.menu li {
+  margin-right: 40px;
 }
-.menu li a{
-    color: #fff;
-    font-size: 14px;
-    cursor: pointer;
+.menu li a {
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
 }
-.content{
-    text-align: center;
-    color: #fff;
-    position: relative;
-    z-index: 1;
+
+#main {
+  background-color: #1c2230;
+  position: relative;
+  padding: 100px 0;
 }
-.content h1{
-    margin: 20px 0 20px 0;
-    line-height: 35px;
-    font-size: 2.5rem;
+
+.content {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
 }
-.content p{
-    line-height: 25px;
-    font-size: 1.2rem;
+.content h1 {
+  margin: 100px 0 50px 0;
+  line-height: 35px;
+  font-size: 2.5rem;
 }
-.bg{
-    position: absolute;
-    bottom: -30%;
+.content p {
+  line-height: 25px;
+  margin-top: 50px;
+  font-size: 1.2rem;
 }
-.bg img{
-    width: 100%;
+.bg {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
 }
-button{
-    width: 150px;
-    padding: 20px;
-    background-color: #41b4cf;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+.bg img {
+  width: 100%;
+}
+button {
+  width: 150px;
+  padding: 20px;
+  background-color: #41b4cf;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 .col-1,
-.col-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px 0 30px 0;
+.col-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 30px 0;
 }
-.row{
-    z-index: 1;
-    position: relative;
-    text-align: center;
-    margin-right: 50px;
-    margin-left: 60px;
-    color: #fff;
+.row {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 60px;
+  color: #fff;
 }
-.row p{
-    font-size: 14px;
-    line-height: 20px;
+.row p {
+  font-size: 14px;
+  line-height: 20px;
 }
-.row h1{
-    font-size: 20px;
-}
-
-#ana{
-    background-color: #181f2b;
-    opacity: .3;
+.row h1 {
+  font-size: 20px;
 }
 
-#status{
-    background-color: #181f2b;
+#ana {
+  background-color: #181f2b;
+  opacity: 0.3;
 }
 
-.cont{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-}
-.colum-1{
-    flex-basis: 50%;
-    margin-left: 150px;
-}
-.colum-2{
-    flex-basis: 50%;
-    color: #fff;
-    text-align: left;
-}
-.colum-2 h1{
-    font-size: 2.5rem;
-    line-height: 50px;
-    margin-bottom: 20px;
-}
-.colum-2 p{
-    margin-bottom: 20px;
-    line-height: 25px;
-}
-.stay a{
-    display: flex;
-    align-items: center;
-    color: #24b3c0;
-    border-bottom: 1px solid #24b3c0;
-    display: inline-block;
-    padding: 0 0 5px 0;
+#status {
+  background-color: #181f2b;
 }
 
-.stay a img{
-    margin-left: 10px;
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.colum-1 {
+  flex-basis: 50%;
+  margin-left: 150px;
+}
+.colum-2 {
+  flex-basis: 50%;
+  color: #fff;
+  text-align: left;
+}
+.colum-2 h1 {
+  font-size: 2.5rem;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.colum-2 p {
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+.stay a {
+  display: flex;
+  align-items: center;
+  color: #24b3c0;
+  border-bottom: 1px solid #24b3c0;
+  display: inline-block;
+  padding: 0 0 5px 0;
+}
+
+.stay a img {
+  margin-left: 10px;
 }
